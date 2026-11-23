@@ -1,0 +1,21 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies & builds
+node_modules/
+vendor/
+dist/
+
+# Databases & logs
+*.sqlite
+*.sqlite3
+*.log
+
+# OS & Editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json

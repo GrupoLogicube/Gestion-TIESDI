@@ -1,0 +1,9 @@
+@import "admin-lte/dist/css/adminlte.min.css" layer(base);
+@import "bootstrap-icons/font/bootstrap-icons.min.css";
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+  }
+}
